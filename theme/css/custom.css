@@ -40,6 +40,21 @@ body {
    /*color:#CCC !important*/
    }
 
+   table {
+    border-collapse: collapse;
+  }
+  tr { 
+    border: solid;
+    border-width: 0.5px 0;
+    border-color: silver;
+  }
+  tr:first-child {
+    border-top: none;
+  }
+  tr:last-child {
+    border-bottom: none;
+  }
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
